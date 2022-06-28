@@ -5,7 +5,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 
 TOKEN = "5546900846:AAFLj45vtz1WKXFM_KdO-lNklgoGoxQkRPs"
 def start(update, context):
-    update.message.reply_photo(open("logo.jpeg", 'rb'))
+    update.message.reply_photo(open("Locandina.jpeg", 'rb'))
 
 calcio_B="Regole Calcio balilla umano"
 biliardino= "Regole Biliardino"
