@@ -10,7 +10,7 @@ def start(update, context):
 calcio_B="Regole Calcio balilla umano"
 biliardino= "Regole Biliardino"
 fifa= "Regole FIFA 22"
-freccette= "Regole Frecette"
+freccette= "Regole Freccette"
 pingpong= "Regole Ping Pong"
 
 '''''
@@ -28,7 +28,7 @@ def regole(update, context):
     update.message.reply_photo(open("regolamento BILIARDINO.jpg", 'rb'))
 '''
 def regole(update: Update, context: CallbackContext):
-    buttons = [[KeyboardButton(calcio_B)], [KeyboardButton("Regole FIFA 22")], [KeyboardButton("Regole Frecette")], [KeyboardButton("Regole Ping Pong")], [KeyboardButton("Regole Biliardino")]]
+    buttons = [[KeyboardButton(calcio_B)], [KeyboardButton("Regole FIFA 22")], [KeyboardButton("Regole Freccette")], [KeyboardButton("Regole Ping Pong")], [KeyboardButton("Regole Biliardino")]]
     context.bot.send_message(chat_id=update.effective_chat.id, text="Scegli il regolamento che vuoi leggere",
     reply_markup=ReplyKeyboardMarkup(buttons))
 
