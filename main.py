@@ -53,7 +53,7 @@ def invio(update: Update, context: CallbackContext):
         #update.message.reply_photo(open("GironeD.jpg", 'rb'))
     if "Gironi FIFA 22" in update.message.text:
         #update.message.reply_text("Presto disponibili")
-        update.message.reply_photo(open(".png", 'rb'))
+        update.message.reply_photo(open("GironiF.png", 'rb'))
         #update.message.reply_photo(open("FifaB.jpg", 'rb'))
         #update.message.reply_photo(open("FifaC.jpg", 'rb'))
         #update.message.reply_photo(open("FifaD.jpg", 'rb'))
