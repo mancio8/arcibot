@@ -46,26 +46,26 @@ def invio(update: Update, context: CallbackContext):
     if biliardino in update.message.text:
         update.message.reply_photo(open("regolamento BILIARDINO.jpg", 'rb'))
     if "Gironi calcio balilla umano" in update.message.text:
-        update.message.reply_text("Presto disponibili")
-        #update.message.reply_photo(open("GironeA.jpg", 'rb'))
+        #update.message.reply_text("Presto disponibili")
+        update.message.reply_photo(open("GironiCB.png", 'rb'))
         #update.message.reply_photo(open("GironeB.jpg", 'rb'))
         #update.message.reply_photo(open("GironeC.jpg", 'rb'))
         #update.message.reply_photo(open("GironeD.jpg", 'rb'))
     if "Gironi FIFA 22" in update.message.text:
-        update.message.reply_text("Presto disponibili")
-        #update.message.reply_photo(open("FifaA.jpg", 'rb'))
+        #update.message.reply_text("Presto disponibili")
+        update.message.reply_photo(open(".png", 'rb'))
         #update.message.reply_photo(open("FifaB.jpg", 'rb'))
         #update.message.reply_photo(open("FifaC.jpg", 'rb'))
         #update.message.reply_photo(open("FifaD.jpg", 'rb'))
     if "Gironi Ping Pong" in update.message.text:
-        update.message.reply_text("Presto disponibili")
-        #update.message.reply_photo(open("PingA.jpg", 'rb'))
-        #update.message.reply_photo(open("PingB.jpg", 'rb'))
+        #update.message.reply_text("Presto disponibili")
+        update.message.reply_photo(open("GironiPP.png", 'rb'))
+        update.message.reply_photo(open("GironiPP2.png", 'rb'))
         #update.message.reply_photo(open("PingC.jpg", 'rb'))
         #update.message.reply_photo(open("PingD.jpg", 'rb'))
     if "Gironi Biliardino" in update.message.text:
-        update.message.reply_text("Presto disponibili")
-        #update.message.reply_photo(open("BilA.jpg", 'rb'))
+        #update.message.reply_text("Presto disponibili")
+        update.message.reply_photo(open("GironeB.png", 'rb'))
         #update.message.reply_photo(open("BilB.jpg", 'rb'))
         #update.message.reply_photo(open("BilC.jpg", 'rb'))
         #update.message.reply_photo(open("BilD.jpg", 'rb'))
@@ -80,11 +80,12 @@ def invio(update: Update, context: CallbackContext):
     if "Giocatori Ping Pong" in update.message.text:
         update.message.reply_text("Presto disponibili")
     if "Partite di stasera" in update.message.text:
-        update.message.reply_text("Presto disponibili")
+        #update.message.reply_text("Presto disponibili")
+        update.message.reply_photo(open("partitecb.jpeg", 'rb'))
     if "Risultati partite" in update.message.text:
         update.message.reply_text("Presto disponibili")
     if "Prossime partite" in update.message.text:
-        update.message.reply_text("Presto disponibili")
+        update.message.reply_photo(open("partitecb.jpeg", 'rb'))
     if "Classifiche calcio balilla umano" in update.message.text:
         update.message.reply_text("Presto disponibili")
         #update.message.reply_photo(open("GironeA.jpg", 'rb'))
